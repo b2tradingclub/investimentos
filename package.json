@@ -1,0 +1,24 @@
+{
+  "name": "investimentos",
+  "version": "0.0.1",
+  "description": "App em PHP+Js para carregar dados das series historicas disponibilizados no site da bovespa e minerar oportunidades.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciusosousa/investimentos.git"
+  },
+  "keywords": [
+    "investimentos",
+    "Bovespa",
+    "ações"
+  ],
+  "author": "Vinicius Oliveira",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/viniciusosousa/investimentos/issues"
+  },
+  "homepage": "https://github.com/viniciusosousa/investimentos#readme"
+}

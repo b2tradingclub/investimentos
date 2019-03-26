@@ -1,0 +1,737 @@
+SETOR_ECONOMICO	SUBSETOR	SEGMENTO	EMPRESA	CODIGO	COD_SEGMENTO
+Petróleo, Gás e Biocombustíveis	Petróleo, Gás e Biocombustíveis	Exploração, Refino e Distribuição	ANDEAVOR	ANDV	DRN
+Petróleo, Gás e Biocombustíveis	Petróleo, Gás e Biocombustíveis	Exploração, Refino e Distribuição	CHESAPEAKE	CHKE	DRN
+Petróleo, Gás e Biocombustíveis	Petróleo, Gás e Biocombustíveis	Exploração, Refino e Distribuição	CHEVRON     	CHVX	DRN
+Petróleo, Gás e Biocombustíveis	Petróleo, Gás e Biocombustíveis	Exploração, Refino e Distribuição	COPHILLIPS	COPH	DRN
+Petróleo, Gás e Biocombustíveis	Petróleo, Gás e Biocombustíveis	Exploração, Refino e Distribuição	COSAN       	CSAN	NM             
+Petróleo, Gás e Biocombustíveis	Petróleo, Gás e Biocombustíveis	Exploração, Refino e Distribuição	COSAN LTD   	CZLT	DR3
+Petróleo, Gás e Biocombustíveis	Petróleo, Gás e Biocombustíveis	Exploração, Refino e Distribuição	DOMMO	DMMO	
+Petróleo, Gás e Biocombustíveis	Petróleo, Gás e Biocombustíveis	Exploração, Refino e Distribuição	EXXON MOBIL 	EXXO	DRN
+Petróleo, Gás e Biocombustíveis	Petróleo, Gás e Biocombustíveis	Exploração, Refino e Distribuição	OGX PETROLEO	OGXP	NM             
+Petróleo, Gás e Biocombustíveis	Petróleo, Gás e Biocombustíveis	Exploração, Refino e Distribuição	PET MANGUINH	RPMG	
+Petróleo, Gás e Biocombustíveis	Petróleo, Gás e Biocombustíveis	Exploração, Refino e Distribuição	PETROBRAS   	PETR	
+Petróleo, Gás e Biocombustíveis	Petróleo, Gás e Biocombustíveis	Exploração, Refino e Distribuição	PETROBRAS BR	BRDT	NM             
+Petróleo, Gás e Biocombustíveis	Petróleo, Gás e Biocombustíveis	Exploração, Refino e Distribuição	PETRORIO	PRIO	NM             
+Petróleo, Gás e Biocombustíveis	Petróleo, Gás e Biocombustíveis	Exploração, Refino e Distribuição	QGEP PART   	QGEP	NM             
+Petróleo, Gás e Biocombustíveis	Petróleo, Gás e Biocombustíveis	Exploração, Refino e Distribuição	SANCHEZ ENER	SANC	DRN
+Petróleo, Gás e Biocombustíveis	Petróleo, Gás e Biocombustíveis	Exploração, Refino e Distribuição	ULTRAPAR    	UGPA	NM             
+Petróleo, Gás e Biocombustíveis	Petróleo, Gás e Biocombustíveis	Exploração, Refino e Distribuição	VALERO ENER	VLOE	DRN
+Petróleo, Gás e Biocombustíveis	Petróleo, Gás e Biocombustíveis	Equipamentos e Serviços	HALLIBURTON	HALI	DRN
+Petróleo, Gás e Biocombustíveis	Petróleo, Gás e Biocombustíveis	Equipamentos e Serviços	LUPATECH    	LUPA	NM             
+Petróleo, Gás e Biocombustíveis	Petróleo, Gás e Biocombustíveis	Equipamentos e Serviços	OSX BRASIL  	OSXB	NM             
+Petróleo, Gás e Biocombustíveis	Petróleo, Gás e Biocombustíveis	Equipamentos e Serviços	SCHLUMBERGER	SLBG	DRN
+Petróleo, Gás e Biocombustíveis	Petróleo, Gás e Biocombustíveis	Equipamentos e Serviços	TRANSOCEAN	RIGG	DRN
+Materiais Básicos	Mineração	Minerais Metálicos	BRADESPAR   	BRAP	N1             
+Materiais Básicos	Mineração	Minerais Metálicos	FREEPORT    	FCXO	DRN
+Materiais Básicos	Mineração	Minerais Metálicos	LITEL       	LTEL	MB             
+Materiais Básicos	Mineração	Minerais Metálicos	MMX MINER   	MMXM	NM             
+Materiais Básicos	Mineração	Minerais Metálicos	VALE        	VALE	NM             
+Materiais Básicos	Siderurgia e Metalurgia	Siderurgia	ARCELOR     	ARMT	DRN
+Materiais Básicos	Siderurgia e Metalurgia	Siderurgia	FERBASA     	FESA	N1             
+Materiais Básicos	Siderurgia e Metalurgia	Siderurgia	GERDAU      	GGBR	N1             
+Materiais Básicos	Siderurgia e Metalurgia	Siderurgia	GERDAU MET  	GOAU	N1             
+Materiais Básicos	Siderurgia e Metalurgia	Siderurgia	SID NACIONAL	CSNA	
+Materiais Básicos	Siderurgia e Metalurgia	Siderurgia	US STEEL	USSX	DRN
+Materiais Básicos	Siderurgia e Metalurgia	Siderurgia	USIMINAS    	USIM	N1             
+Materiais Básicos	Siderurgia e Metalurgia	Artefatos de Ferro e Aço	FIBAM       	FBMC	
+Materiais Básicos	Siderurgia e Metalurgia	Artefatos de Ferro e Aço	MANGELS INDL	MGEL	
+Materiais Básicos	Siderurgia e Metalurgia	Artefatos de Ferro e Aço	PANATLANTICA	PATI	
+Materiais Básicos	Siderurgia e Metalurgia	Artefatos de Ferro e Aço	TEKNO       	TKNO	
+Materiais Básicos	Siderurgia e Metalurgia	Artefatos de Cobre	PARANAPANEMA	PMAM	NM             
+Materiais Básicos	Químicos	Petroquímicos	BRASKEM     	BRKM	N1             
+Materiais Básicos	Químicos	Petroquímicos	DOW CHEMICAL	DOWB	DRN
+Materiais Básicos	Químicos	Petroquímicos	ELEKEIROZ   	ELEK	
+Materiais Básicos	Químicos	Petroquímicos	GPC PART    	GPCP	
+Materiais Básicos	Químicos	Fertilizantes e Defensivos	FER HERINGER	FHER	NM             
+Materiais Básicos	Químicos	Fertilizantes e Defensivos	MOSAIC CO	MOSC	DRN
+Materiais Básicos	Químicos	Fertilizantes e Defensivos	NUTRIPLANT  	NUTR	MA             
+Materiais Básicos	Químicos	Químicos Diversos	CRISTAL	CRPG	
+Materiais Básicos	Químicos	Químicos Diversos	E I DU PONT	DUPO	DRN
+Materiais Básicos	Químicos	Químicos Diversos	UNIPAR      	UNIP	
+Materiais Básicos	Madeira e Papel	Madeira	DURATEX     	DTEX	NM             
+Materiais Básicos	Madeira e Papel	Madeira	EUCATEX     	EUCA	N1             
+Materiais Básicos	Madeira e Papel	Papel e Celulose	CELUL IRANI 	RANI	
+Materiais Básicos	Madeira e Papel	Papel e Celulose	FIBRIA      	FIBR	NM             
+Materiais Básicos	Madeira e Papel	Papel e Celulose	KLABIN S/A  	KLBN	N2
+Materiais Básicos	Madeira e Papel	Papel e Celulose	SANTHER     	STTZ	
+Materiais Básicos	Madeira e Papel	Papel e Celulose	SUZANO HOLD 	NEMO	
+Materiais Básicos	Madeira e Papel	Papel e Celulose	SUZANO PAPEL	SUZB	NM             
+Materiais Básicos	Embalagens	Embalagens	METAL IGUACU	MTIG	
+Materiais Básicos	Materiais Diversos	Materiais Diversos	MAGNESITA SA	MAGG	NM             
+Materiais Básicos	Materiais Diversos	Materiais Diversos	SANSUY      	SNSY	
+Bens Industriais	Construção e Engenharia	Produtos para Construção	ETERNIT     	ETER	NM             
+Bens Industriais	Construção e Engenharia	Produtos para Construção	HAGA S/A    	HAGA	
+Bens Industriais	Construção e Engenharia	Produtos para Construção	PORTOBELLO  	PTBL	NM             
+Bens Industriais	Construção e Engenharia	Construção Pesada	AZEVEDO     	AZEV	
+Bens Industriais	Construção e Engenharia	Construção Pesada	MENDES JR   	MEND	
+Bens Industriais	Construção e Engenharia	Engenharia Consultiva	SONDOTECNICA	SOND	
+Bens Industriais	Construção e Engenharia	Engenharia Consultiva	TECNOSOLO   	TCNO	
+Bens Industriais	Construção e Engenharia	Serviços Diversos	MILLS       	MILS	NM             
+Bens Industriais	Material de Transporte	Material Aeronáutico e de Defesa	BOEING	BOEI	DRN
+Bens Industriais	Material de Transporte	Material Aeronáutico e de Defesa	EMBRAER     	EMBR	NM             
+Bens Industriais	Material de Transporte	Material Aeronáutico e de Defesa	GEN DYNAMICS	GDBR	DRN
+Bens Industriais	Material de Transporte	Material Aeronáutico e de Defesa	LOCKHEED	LMTB	DRN
+Bens Industriais	Material de Transporte	Material Aeronáutico e de Defesa	UNITED TECH	UTEC	DRN
+Bens Industriais	Material de Transporte	Material Rodoviário	FRAS-LE     	FRAS	N1             
+Bens Industriais	Material de Transporte	Material Rodoviário	MARCOPOLO   	POMO	N2             
+Bens Industriais	Material de Transporte	Material Rodoviário	RANDON PART 	RAPT	N1             
+Bens Industriais	Material de Transporte	Material Rodoviário	RECRUSUL    	RCSL	
+Bens Industriais	Material de Transporte	Material Rodoviário	RIOSULENSE  	RSUL	
+Bens Industriais	Material de Transporte	Material Rodoviário	TUPY        	TUPY	NM             
+Bens Industriais	Material de Transporte	Material Rodoviário	WETZEL S/A  	MWET	
+Bens Industriais	Equipamentos Elétricos	Equipamentos Elétricos	FIRST SOLAR	FSLR	DRN
+Bens Industriais	Máquinas e Equipamentos	Motores, Compressores e Outros	SCHULZ      	SHUL	
+Bens Industriais	Máquinas e Equipamentos	Motores, Compressores e Outros	WEG         	WEGE	NM             
+Bens Industriais	Máquinas e Equipamentos	Máq. e Equip. Industriais	ACO ALTONA  	EALT	
+Bens Industriais	Máquinas e Equipamentos	Máq. e Equip. Industriais	BARDELLA    	BDLL	
+Bens Industriais	Máquinas e Equipamentos	Máq. e Equip. Industriais	INDS ROMI   	ROMI	NM             
+Bens Industriais	Máquinas e Equipamentos	Máq. e Equip. Industriais	INEPAR      	INEP	
+Bens Industriais	Máquinas e Equipamentos	Máq. e Equip. Industriais	KEPLER WEBER	KEPL	
+Bens Industriais	Máquinas e Equipamentos	Máq. e Equip. Industriais	METALFRIO   	FRIO	NM             
+Bens Industriais	Máquinas e Equipamentos	Máq. e Equip. Industriais	NORDON MET  	NORD	
+Bens Industriais	Máquinas e Equipamentos	Máq. e Equip. Construção e Agrícolas	CATERPILLAR 	CATP	DRN
+Bens Industriais	Máquinas e Equipamentos	Máq. e Equip. Construção e Agrícolas	METISA      	MTSA	
+Bens Industriais	Máquinas e Equipamentos	Máq. e Equip. Construção e Agrícolas	STARA	STTR	MA
+Bens Industriais	Máquinas e Equipamentos	Armas e Munições	FORJA TAURUS	FJTA	N2             
+Bens Industriais	Transporte	Transporte Aéreo	AMERICAN AIR	AALL	DRN
+Bens Industriais	Transporte	Transporte Aéreo	AZUL	AZUL	N2             
+Bens Industriais	Transporte	Transporte Aéreo	DELTA	DEAI	DRN
+Bens Industriais	Transporte	Transporte Aéreo	GOL         	GOLL	N2             
+Bens Industriais	Transporte	Transporte Ferroviário	ALL NORTE   	FRRN	MB             
+Bens Industriais	Transporte	Transporte Ferroviário	ALL PAULISTA	GASC	MB             
+Bens Industriais	Transporte	Transporte Ferroviário	COSAN LOG	RLOG	NM             
+Bens Industriais	Transporte	Transporte Ferroviário	FER C ATLANT	VSPT	
+Bens Industriais	Transporte	Transporte Ferroviário	MRS LOGIST  	MRSA	MB             
+Bens Industriais	Transporte	Transporte Ferroviário	RUMO S.A.	RAIL	NM             
+Bens Industriais	Transporte	Transporte Ferroviário	UNIONPACIFIC	UPAC	DRN
+Bens Industriais	Transporte	Transporte Hidroviário	LOG-IN      	LOGN	NM             
+Bens Industriais	Transporte	Transporte Hidroviário	TREVISA     	LUXM	
+Bens Industriais	Transporte	Transporte Rodoviário	FEDEX CORP	FDXB	DRN
+Bens Industriais	Transporte	Transporte Rodoviário	JSL         	JSLG	NM             
+Bens Industriais	Transporte	Transporte Rodoviário	TEGMA       	TGMA	NM             
+Bens Industriais	Transporte	Transporte Rodoviário	UPS	UPSS	DRN
+Bens Industriais	Transporte	Exploração de Rodovias	AUTOBAN     	ANHB	
+Bens Industriais	Transporte	Exploração de Rodovias	CCR SA      	CCRO	NM             
+Bens Industriais	Transporte	Exploração de Rodovias	CONC RAPOSO 	RPTA	
+Bens Industriais	Transporte	Exploração de Rodovias	CONC RIO TER	CRTE	MB             
+Bens Industriais	Transporte	Exploração de Rodovias	ECON        	ERDV	
+Bens Industriais	Transporte	Exploração de Rodovias	ECONORTE    	ECNT	
+Bens Industriais	Transporte	Exploração de Rodovias	ECOPISTAS   	ASCP	
+Bens Industriais	Transporte	Exploração de Rodovias	ECORODOVIAS 	ECOR	NM             
+Bens Industriais	Transporte	Exploração de Rodovias	ECOVIAS     	ECOV	
+Bens Industriais	Transporte	Exploração de Rodovias	ROD COLINAS 	COLN	
+Bens Industriais	Transporte	Exploração de Rodovias	ROD TIETE   	RDVT	
+Bens Industriais	Transporte	Exploração de Rodovias	RT BANDEIRAS	CRBD	
+Bens Industriais	Transporte	Exploração de Rodovias	TRIANGULOSOL	TRIA	
+Bens Industriais	Transporte	Exploração de Rodovias	TRIUNFO PART	TPIS	NM             
+Bens Industriais	Transporte	Exploração de Rodovias	VIAOESTE    	VOES	
+Bens Industriais	Transporte	Serviços de Apoio e Armazenagem	GRUAIRPORT	AGRU	MB             
+Bens Industriais	Transporte	Serviços de Apoio e Armazenagem	INVEPAR     	IVPR	MB             
+Bens Industriais	Transporte	Serviços de Apoio e Armazenagem	PRUMO	PRML	
+Bens Industriais	Transporte	Serviços de Apoio e Armazenagem	SANTOS BRP  	STBP	N2             
+Bens Industriais	Transporte	Serviços de Apoio e Armazenagem	WILSON SONS 	WSON	DR3
+Bens Industriais	Serviços Diversos	Serviços Diversos	CSU CARDSYST	CARD	NM             
+Bens Industriais	Serviços Diversos	Serviços Diversos	DTCOM-DIRECT	DTCY	
+Bens Industriais	Serviços Diversos	Serviços Diversos	FLEX S/A	FLEX	MA
+Bens Industriais	Serviços Diversos	Serviços Diversos	LIQ	LIQO	NM             
+Bens Industriais	Serviços Diversos	Serviços Diversos	PRINER	PRNR	MA
+Bens Industriais	Serviços Diversos	Serviços Diversos	VALID       	VLID	NM             
+Bens Industriais	Comércio	Material de Transporte	MINASMAQUINA	MMAQ	
+Bens Industriais	Comércio	Material de Transporte	WLM IND COM 	WLMM	
+Consumo não Cíclico	Agropecuária	Agricultura	ALIPERTI    	APTI	
+Consumo não Cíclico	Agropecuária	Agricultura	BRASILAGRO  	AGRO	NM             
+Consumo não Cíclico	Agropecuária	Agricultura	POMIFRUTAS	FRTA	NM             
+Consumo não Cíclico	Agropecuária	Agricultura	SLC AGRICOLA	SLCE	NM             
+Consumo não Cíclico	Agropecuária	Agricultura	TERRA SANTA	TESA	NM             
+Consumo não Cíclico	Alimentos Processados	Açucar e Alcool	BIOSEV	BSEV	NM             
+Consumo não Cíclico	Alimentos Processados	Açucar e Alcool	RAIZEN ENERG	RESA	
+Consumo não Cíclico	Alimentos Processados	Açucar e Alcool	SAO MARTINHO	SMTO	NM             
+Consumo não Cíclico	Alimentos Processados	Carnes e Derivados	BRF SA   	BRFS	NM             
+Consumo não Cíclico	Alimentos Processados	Carnes e Derivados	EXCELSIOR   	BAUH	
+Consumo não Cíclico	Alimentos Processados	Carnes e Derivados	JBS         	JBSS	NM             
+Consumo não Cíclico	Alimentos Processados	Carnes e Derivados	MARFRIG     	MRFG	NM             
+Consumo não Cíclico	Alimentos Processados	Carnes e Derivados	MINERVA     	BEEF	NM             
+Consumo não Cíclico	Alimentos Processados	Carnes e Derivados	MINUPAR     	MNPR	
+Consumo não Cíclico	Alimentos Processados	Alimentos Diversos	CAMIL	CAML	NM             
+Consumo não Cíclico	Alimentos Processados	Alimentos Diversos	HERSHEY CO	HSHY	DRN
+Consumo não Cíclico	Alimentos Processados	Alimentos Diversos	J.MACEDO    	JMCD	
+Consumo não Cíclico	Alimentos Processados	Alimentos Diversos	JOSAPAR     	JOPA	
+Consumo não Cíclico	Alimentos Processados	Alimentos Diversos	KRAFT HEINZ	KHCB	DRN
+Consumo não Cíclico	Alimentos Processados	Alimentos Diversos	M.DIASBRANCO	MDIA	NM             
+Consumo não Cíclico	Alimentos Processados	Alimentos Diversos	MONDELEZ INT	MDLZ	DRN
+Consumo não Cíclico	Alimentos Processados	Alimentos Diversos	ODERICH     	ODER	
+Consumo não Cíclico	Bebidas	Cervejas e Refrigerantes	AMBEV S/A	ABEV	
+Consumo não Cíclico	Bebidas	Cervejas e Refrigerantes	COCA COLA   	COCA	DRN
+Consumo não Cíclico	Bebidas	Cervejas e Refrigerantes	FEMSA	FMXB	DRN
+Consumo não Cíclico	Bebidas	Cervejas e Refrigerantes	PEPSICO INC	PEPB	DRN
+Consumo não Cíclico	Produtos de Uso Pessoal e de Limpeza	Produtos de Uso Pessoal	AVON        	AVON	DRN
+Consumo não Cíclico	Produtos de Uso Pessoal e de Limpeza	Produtos de Uso Pessoal	COLGATE     	COLG	DRN
+Consumo não Cíclico	Produtos de Uso Pessoal e de Limpeza	Produtos de Uso Pessoal	COTY INC	COTY	DRN
+Consumo não Cíclico	Produtos de Uso Pessoal e de Limpeza	Produtos de Uso Pessoal	KIMBERLY CL	KMBB	DRN
+Consumo não Cíclico	Produtos de Uso Pessoal e de Limpeza	Produtos de Uso Pessoal	NATURA      	NATU	NM             
+Consumo não Cíclico	Produtos de Uso Pessoal e de Limpeza	Produtos de Uso Pessoal	PG          	PGCO	DRN
+Consumo não Cíclico	Produtos de Uso Pessoal e de Limpeza	Produtos de Limpeza	BOMBRIL     	BOBR	
+Consumo não Cíclico	Comércio e Distribuição	Alimentos	CARREFOUR BR	CRFB	NM             
+Consumo não Cíclico	Comércio e Distribuição	Alimentos	P.ACUCAR-CBD	PCAR	N1             
+Consumo não Cíclico	Comércio e Distribuição	Alimentos	TARGET CORP	TGTB	DRN
+Consumo não Cíclico	Comércio e Distribuição	Alimentos	WAL MART    	WALM	DRN
+Consumo Cíclico	Construção Civil	Edificações	CONST A LIND	CALI	
+Consumo Cíclico	Construção Civil	Edificações	CR2         	CRDE	NM             
+Consumo Cíclico	Construção Civil	Edificações	CYRELA REALT	CYRE	NM             
+Consumo Cíclico	Construção Civil	Edificações	DIRECIONAL  	DIRR	NM             
+Consumo Cíclico	Construção Civil	Edificações	EVEN        	EVEN	NM             
+Consumo Cíclico	Construção Civil	Edificações	EZTEC       	EZTC	NM             
+Consumo Cíclico	Construção Civil	Edificações	GAFISA      	GFSA	NM             
+Consumo Cíclico	Construção Civil	Edificações	HELBOR      	HBOR	NM             
+Consumo Cíclico	Construção Civil	Edificações	INTER SA 	INNT	MA
+Consumo Cíclico	Construção Civil	Edificações	JHSF PART   	JHSF	NM             
+Consumo Cíclico	Construção Civil	Edificações	JOAO FORTES 	JFEN	
+Consumo Cíclico	Construção Civil	Edificações	MRV         	MRVE	NM             
+Consumo Cíclico	Construção Civil	Edificações	PDG REALT   	PDGR	NM             
+Consumo Cíclico	Construção Civil	Edificações	RNI	RDNI	NM             
+Consumo Cíclico	Construção Civil	Edificações	ROSSI RESID 	RSID	NM             
+Consumo Cíclico	Construção Civil	Edificações	TECNISA     	TCSA	NM             
+Consumo Cíclico	Construção Civil	Edificações	TENDA	TEND	NM             
+Consumo Cíclico	Construção Civil	Edificações	TRISUL      	TRIS	NM             
+Consumo Cíclico	Construção Civil	Edificações	VIVER       	VIVR	NM             
+Consumo Cíclico	Tecidos, Vestuário e Calçados	Fios e Tecidos	CEDRO       	CEDO	N1             
+Consumo Cíclico	Tecidos, Vestuário e Calçados	Fios e Tecidos	COTEMINAS   	CTNM	
+Consumo Cíclico	Tecidos, Vestuário e Calçados	Fios e Tecidos	DOHLER      	DOHL	
+Consumo Cíclico	Tecidos, Vestuário e Calçados	Fios e Tecidos	ENCORPAR    	ECPR	
+Consumo Cíclico	Tecidos, Vestuário e Calçados	Fios e Tecidos	IND CATAGUAS	CATA	
+Consumo Cíclico	Tecidos, Vestuário e Calçados	Fios e Tecidos	KARSTEN     	CTKA	
+Consumo Cíclico	Tecidos, Vestuário e Calçados	Fios e Tecidos	PETTENATI   	PTNT	
+Consumo Cíclico	Tecidos, Vestuário e Calçados	Fios e Tecidos	SANTANENSE  	CTSA	
+Consumo Cíclico	Tecidos, Vestuário e Calçados	Fios e Tecidos	SPRINGS     	SGPS	NM             
+Consumo Cíclico	Tecidos, Vestuário e Calçados	Fios e Tecidos	TEKA        	TEKA	
+Consumo Cíclico	Tecidos, Vestuário e Calçados	Fios e Tecidos	TEX RENAUX  	TXRX	
+Consumo Cíclico	Tecidos, Vestuário e Calçados	Vestuário	CIA HERING  	HGTX	NM             
+Consumo Cíclico	Tecidos, Vestuário e Calçados	Calçados	ALPARGATAS  	ALPA	N1             
+Consumo Cíclico	Tecidos, Vestuário e Calçados	Calçados	CAMBUCI     	CAMB	
+Consumo Cíclico	Tecidos, Vestuário e Calçados	Calçados	GRENDENE    	GRND	NM             
+Consumo Cíclico	Tecidos, Vestuário e Calçados	Calçados	NIKE        	NIKE	DRN
+Consumo Cíclico	Tecidos, Vestuário e Calçados	Calçados	VULCABRAS   	VULC	NM             
+Consumo Cíclico	Tecidos, Vestuário e Calçados	Acessórios	MUNDIAL     	MNDL	
+Consumo Cíclico	Tecidos, Vestuário e Calçados	Acessórios	TECHNOS     	TECN	NM             
+Consumo Cíclico	Utilidades Domésticas	Eletrodomésticos	GOPRO	GPRO	DRN
+Consumo Cíclico	Utilidades Domésticas	Eletrodomésticos	WHIRLPOOL   	WHRL	
+Consumo Cíclico	Utilidades Domésticas	Móveis	UNICASA	UCAS	NM             
+Consumo Cíclico	Utilidades Domésticas	Utensílios Domésticos	HERCULES    	HETA	
+Consumo Cíclico	Utilidades Domésticas	Utensílios Domésticos	NADIR FIGUEI	NAFG	
+Consumo Cíclico	Automóveis e Motocicletas	Automóveis e Motocicletas	FORD MOTORS	FDMO	DRN
+Consumo Cíclico	Automóveis e Motocicletas	Automóveis e Motocicletas	GENERAL MOT	GMCO	DRN
+Consumo Cíclico	Automóveis e Motocicletas	Automóveis e Motocicletas	IOCHP-MAXION	MYPK	NM             
+Consumo Cíclico	Automóveis e Motocicletas	Automóveis e Motocicletas	METAL LEVE  	LEVE	NM             
+Consumo Cíclico	Automóveis e Motocicletas	Automóveis e Motocicletas	PLASCAR PART	PLAS	
+Consumo Cíclico	Automóveis e Motocicletas	Automóveis e Motocicletas	TESLA INC	TSLA	DRN
+Consumo Cíclico	Mídia	Produção e Difusão de Filmes e Programas	CINESYSTEM	CNSY	MA
+Consumo Cíclico	Mídia	Produção e Difusão de Filmes e Programas	COMCAST	CMCS	DRN
+Consumo Cíclico	Mídia	Produção e Difusão de Filmes e Programas	NETFLIX	NFLX	DRN
+Consumo Cíclico	Mídia	Produção e Difusão de Filmes e Programas	TIME WARNER	TWXB	DRN
+Consumo Cíclico	Mídia	Produção e Difusão de Filmes e Programas	WALT DISNEY	DISB	DRN
+Consumo Cíclico	Mídia	Jornais, Livros e Revistas	MELHOR SP   	MSPA	
+Consumo Cíclico	Hoteis e Restaurantes	Hotelaria	HOTEIS OTHON	HOOT	
+Consumo Cíclico	Hoteis e Restaurantes	Restaurante e Similares	BK BRASIL	BKBR	NM             
+Consumo Cíclico	Hoteis e Restaurantes	Restaurante e Similares	IMC S/A	MEAL	NM             
+Consumo Cíclico	Hoteis e Restaurantes	Restaurante e Similares	MCDONALDS   	MCDC	DRN
+Consumo Cíclico	Hoteis e Restaurantes	Restaurante e Similares	STARBUCKS	SBUB	DRN
+Consumo Cíclico	Viagens e Lazer	Bicicletas	BIC MONARK  	BMKS	
+Consumo Cíclico	Viagens e Lazer	Brinquedos e Jogos	ESTRELA     	ESTR	
+Consumo Cíclico	Viagens e Lazer	Brinquedos e Jogos	TECTOY      	TOYB	
+Consumo Cíclico	Viagens e Lazer	Produção de Eventos e Shows	SPTURIS     	AHEB	
+Consumo Cíclico	Viagens e Lazer	Produção de Eventos e Shows	TIME FOR FUN	SHOW	NM             
+Consumo Cíclico	Viagens e Lazer	Viagens e Turismo	CVC BRASIL	CVCB	NM             
+Consumo Cíclico	Viagens e Lazer	Atividades Esportivas	SMART FIT	SMFT	M2
+Consumo Cíclico	Diversos	Serviços Educacionais	ANIMA	ANIM	NM             
+Consumo Cíclico	Diversos	Serviços Educacionais	BAHEMA      	BAHI	MA
+Consumo Cíclico	Diversos	Serviços Educacionais	ESTACIO PART	ESTC	NM             
+Consumo Cíclico	Diversos	Serviços Educacionais	KROTON      	KROT	NM             
+Consumo Cíclico	Diversos	Serviços Educacionais	SER EDUCA	SEER	NM             
+Consumo Cíclico	Diversos	Serviços Educacionais	SOMOS EDUCA 	SEDU	NM             
+Consumo Cíclico	Diversos	Aluguel de carros	LOCALIZA    	RENT	NM             
+Consumo Cíclico	Diversos	Aluguel de carros	LOCAMERICA	LCAM	NM             
+Consumo Cíclico	Diversos	Aluguel de carros	MOVIDA	MOVI	NM             
+Consumo Cíclico	Diversos	Aluguel de carros	UNIDAS      	UNID	
+Consumo Cíclico	Diversos	Programas de Fidelização	MULTIPLUS   	MPLU	NM             
+Consumo Cíclico	Diversos	Programas de Fidelização	SMILES	SMLS	NM             
+Consumo Cíclico	Comércio	Tecidos, Vestuário e Calçados	AREZZO CO   	ARZZ	NM             
+Consumo Cíclico	Comércio	Tecidos, Vestuário e Calçados	GAP	GPSI	DRN
+Consumo Cíclico	Comércio	Tecidos, Vestuário e Calçados	GRAZZIOTIN  	CGRA	
+Consumo Cíclico	Comércio	Tecidos, Vestuário e Calçados	GUARARAPES  	GUAR	
+Consumo Cíclico	Comércio	Tecidos, Vestuário e Calçados	JC PENNEY	JCPC	DRN
+Consumo Cíclico	Comércio	Tecidos, Vestuário e Calçados	L BRANDS	LBRN	DRN
+Consumo Cíclico	Comércio	Tecidos, Vestuário e Calçados	LE LIS BLANC	LLIS	NM             
+Consumo Cíclico	Comércio	Tecidos, Vestuário e Calçados	LOJAS MARISA	AMAR	NM             
+Consumo Cíclico	Comércio	Tecidos, Vestuário e Calçados	LOJAS RENNER	LREN	NM             
+Consumo Cíclico	Comércio	Tecidos, Vestuário e Calçados	MACY S	MACY	DRN
+Consumo Cíclico	Comércio	Tecidos, Vestuário e Calçados	ROSS STORES	ROST	DRN
+Consumo Cíclico	Comércio	Eletrodomésticos	BEST BUY	BBYY	DRN
+Consumo Cíclico	Comércio	Eletrodomésticos	MAGAZ LUIZA 	MGLU	NM             
+Consumo Cíclico	Comércio	Eletrodomésticos	VIAVAREJO	VVAR	N2             
+Consumo Cíclico	Comércio	Produtos Diversos	AMAZON      	AMZO	DRN
+Consumo Cíclico	Comércio	Produtos Diversos	B2W DIGITAL	BTOW	NM             
+Consumo Cíclico	Comércio	Produtos Diversos	BR HOME	HCBR	MA
+Consumo Cíclico	Comércio	Produtos Diversos	COSTCO	COWC	DRN
+Consumo Cíclico	Comércio	Produtos Diversos	DUFRY AG    	DAGB	DR3
+Consumo Cíclico	Comércio	Produtos Diversos	HOME DEPOT	HOME	DRN
+Consumo Cíclico	Comércio	Produtos Diversos	LOJAS AMERIC	LAME	N1             
+Consumo Cíclico	Comércio	Produtos Diversos	SARAIVA LIVR	SLED	N2             
+Consumo Cíclico	Comércio	Produtos Diversos	TIFFANY	TIFF	DRN
+Saúde	Medicamentos e Outros Produtos	Medicamentos e Outros Produtos	ABBOTT	ABTT	DRN
+Saúde	Medicamentos e Outros Produtos	Medicamentos e Outros Produtos	ABBVIE	ABBV	DRN
+Saúde	Medicamentos e Outros Produtos	Medicamentos e Outros Produtos	AMGEN	AMGN	DRN
+Saúde	Medicamentos e Outros Produtos	Medicamentos e Outros Produtos	BIOGEN	BIIB	DRN
+Saúde	Medicamentos e Outros Produtos	Medicamentos e Outros Produtos	BIOMM       	BIOM	MA
+Saúde	Medicamentos e Outros Produtos	Medicamentos e Outros Produtos	BIOTOSCANA	GBIO	
+Saúde	Medicamentos e Outros Produtos	Medicamentos e Outros Produtos	BRISTOLMYERS	BMYB	DRN
+Saúde	Medicamentos e Outros Produtos	Medicamentos e Outros Produtos	CELGENE CORP	CLGN	DRN
+Saúde	Medicamentos e Outros Produtos	Medicamentos e Outros Produtos	CREMER      	CREM	
+Saúde	Medicamentos e Outros Produtos	Medicamentos e Outros Produtos	CVS HEALTH	CVSH	DRN
+Saúde	Medicamentos e Outros Produtos	Medicamentos e Outros Produtos	GILEAD	GILD	DRN
+Saúde	Medicamentos e Outros Produtos	Medicamentos e Outros Produtos	JOHNSON	JNJB	DRN
+Saúde	Medicamentos e Outros Produtos	Medicamentos e Outros Produtos	LILLY	LILY	DRN
+Saúde	Medicamentos e Outros Produtos	Medicamentos e Outros Produtos	MEDTRONIC	MDTC	DRN
+Saúde	Medicamentos e Outros Produtos	Medicamentos e Outros Produtos	MERCK       	MRCK	DRN
+Saúde	Medicamentos e Outros Produtos	Medicamentos e Outros Produtos	NORTCQUIMICA	NRTQ	MA
+Saúde	Medicamentos e Outros Produtos	Medicamentos e Outros Produtos	OUROFINO S/A	OFSA	NM             
+Saúde	Medicamentos e Outros Produtos	Medicamentos e Outros Produtos	PFIZER      	PFIZ	DRN
+Saúde	Análises e Diagnósticos	Análises e Diagnósticos	ADVANCED-DH	ADHM	
+Saúde	Análises e Diagnósticos	Análises e Diagnósticos	AETNA INC	AETB	DRN
+Saúde	Análises e Diagnósticos	Análises e Diagnósticos	ALLIAR	AALR	NM             
+Saúde	Análises e Diagnósticos	Análises e Diagnósticos	DASA        	DASA	
+Saúde	Análises e Diagnósticos	Análises e Diagnósticos	FLEURY      	FLRY	NM             
+Saúde	Análises e Diagnósticos	Análises e Diagnósticos	IHPARDINI	PARD	NM             
+Saúde	Análises e Diagnósticos	Análises e Diagnósticos	ODONTOPREV  	ODPV	NM             
+Saúde	Análises e Diagnósticos	Análises e Diagnósticos	PACIFIC RDSL	PACF	
+Saúde	Análises e Diagnósticos	Análises e Diagnósticos	QUALICORP   	QUAL	NM             
+Saúde	Análises e Diagnósticos	Análises e Diagnósticos	THERMFISCHER	TMOS	DRN
+Saúde	Equipamentos	Equipamentos	BAUMER      	BALM	
+Saúde	Comércio e Distribuição	Medicamentos e Outros Produtos	BR PHARMA   	BPHA	NM             
+Saúde	Comércio e Distribuição	Medicamentos e Outros Produtos	DIMED       	PNVL	
+Saúde	Comércio e Distribuição	Medicamentos e Outros Produtos	EXPRESCRIPTS	ESRX	DRN
+Saúde	Comércio e Distribuição	Medicamentos e Outros Produtos	HYPERA	HYPE	NM             
+Saúde	Comércio e Distribuição	Medicamentos e Outros Produtos	PROFARMA    	PFRM	NM             
+Saúde	Comércio e Distribuição	Medicamentos e Outros Produtos	RAIADROGASIL    	RADL	NM             
+Saúde	Comércio e Distribuição	Medicamentos e Outros Produtos	WALGREEN B.A	WGBA	DRN
+Tecnologia da Informação	Computadores e Equipamentos	Computadores e Equipamentos	APPLE       	AAPL	DRN
+Tecnologia da Informação	Computadores e Equipamentos	Computadores e Equipamentos	CISCO       	CSCO	DRN
+Tecnologia da Informação	Computadores e Equipamentos	Computadores e Equipamentos	HP COMPANY	HPQB	DRN
+Tecnologia da Informação	Computadores e Equipamentos	Computadores e Equipamentos	INTEL       	ITLC	DRN
+Tecnologia da Informação	Computadores e Equipamentos	Computadores e Equipamentos	ITAUTEC     	ITEC	
+Tecnologia da Informação	Computadores e Equipamentos	Computadores e Equipamentos	POSITIVO TEC	POSI	NM             
+Tecnologia da Informação	Computadores e Equipamentos	Computadores e Equipamentos	QUALCOMM	QCOM	DRN
+Tecnologia da Informação	Computadores e Equipamentos	Computadores e Equipamentos	TEXAS INC	TEXA	DRN
+Tecnologia da Informação	Computadores e Equipamentos	Computadores e Equipamentos	XEROX CORP	XRXB	DRN
+Tecnologia da Informação	Programas e Serviços	Programas e Serviços	ACCENTURE	ACNB	DRN
+Tecnologia da Informação	Programas e Serviços	Programas e Serviços	ALPHABET	GOGL	DRN
+Tecnologia da Informação	Programas e Serviços	Programas e Serviços	BRQ	BRQB	MA
+Tecnologia da Informação	Programas e Serviços	Programas e Serviços	COGNIZANT	CTSH	DRN
+Tecnologia da Informação	Programas e Serviços	Programas e Serviços	EBAY	EBAY	DRN
+Tecnologia da Informação	Programas e Serviços	Programas e Serviços	EMC	EMCC	DRN
+Tecnologia da Informação	Programas e Serviços	Programas e Serviços	FACEBOOK	FBOK	DRN
+Tecnologia da Informação	Programas e Serviços	Programas e Serviços	IBM	IBMB	DRN
+Tecnologia da Informação	Programas e Serviços	Programas e Serviços	LINX	LINX	NM             
+Tecnologia da Informação	Programas e Serviços	Programas e Serviços	MICROSOFT   	MSFT	DRN
+Tecnologia da Informação	Programas e Serviços	Programas e Serviços	ORACLE      	ORCL	DRN
+Tecnologia da Informação	Programas e Serviços	Programas e Serviços	QUALITY SOFT	QUSW	MA
+Tecnologia da Informação	Programas e Serviços	Programas e Serviços	SALESFORCE	SSFO	DRN
+Tecnologia da Informação	Programas e Serviços	Programas e Serviços	SENIOR SOL	SNSL	NM             
+Tecnologia da Informação	Programas e Serviços	Programas e Serviços	TOTVS       	TOTS	NM             
+Tecnologia da Informação	Programas e Serviços	Programas e Serviços	TWITTER	TWTR	DRN
+Telecomunicações	Telecomunicações	Telecomunicações	ALGAR TELEC	ALGT	
+Telecomunicações	Telecomunicações	Telecomunicações	ATT INC	ATTB	DRN
+Telecomunicações	Telecomunicações	Telecomunicações	OI	OIBR	N1
+Telecomunicações	Telecomunicações	Telecomunicações	SPRINT	SPRN	DRN
+Telecomunicações	Telecomunicações	Telecomunicações	TELEBRAS    	TELB	
+Telecomunicações	Telecomunicações	Telecomunicações	TELEF BRASIL	VIVT	
+Telecomunicações	Telecomunicações	Telecomunicações	TIM PART S/A	TIMP	NM             
+Telecomunicações	Telecomunicações	Telecomunicações	VERIZON	VERZ	DRN
+Utilidade Pública	Energia Elétrica	Energia Elétrica	AES SUL     	AESL	
+Utilidade Pública	Energia Elétrica	Energia Elétrica	AES TIETE E	TIET	N2             
+Utilidade Pública	Energia Elétrica	Energia Elétrica	AFLUENTE T  	AFLT	
+Utilidade Pública	Energia Elétrica	Energia Elétrica	ALUPAR	ALUP	N2             
+Utilidade Pública	Energia Elétrica	Energia Elétrica	AMPLA ENERG 	CBEE	
+Utilidade Pública	Energia Elétrica	Energia Elétrica	BONAIRE PART	BNPA	MB             
+Utilidade Pública	Energia Elétrica	Energia Elétrica	CACHOEIRA	CPTE	MB             
+Utilidade Pública	Energia Elétrica	Energia Elétrica	CEB         	CEBR	
+Utilidade Pública	Energia Elétrica	Energia Elétrica	CEEE-D      	CEED	N1             
+Utilidade Pública	Energia Elétrica	Energia Elétrica	CEEE-GT     	EEEL	N1             
+Utilidade Pública	Energia Elétrica	Energia Elétrica	CELESC      	CLSC	N2             
+Utilidade Pública	Energia Elétrica	Energia Elétrica	CELGPAR     	GPAR	
+Utilidade Pública	Energia Elétrica	Energia Elétrica	CELPA       	CELP	
+Utilidade Pública	Energia Elétrica	Energia Elétrica	CELPE       	CEPE	
+Utilidade Pública	Energia Elétrica	Energia Elétrica	CEMAR       	ENMA	MB             
+Utilidade Pública	Energia Elétrica	Energia Elétrica	CEMIG       	CMIG	N1             
+Utilidade Pública	Energia Elétrica	Energia Elétrica	CEMIG DIST  	CMGD	
+Utilidade Pública	Energia Elétrica	Energia Elétrica	CEMIG GT    	CMGT	
+Utilidade Pública	Energia Elétrica	Energia Elétrica	CESP        	CESP	N1             
+Utilidade Pública	Energia Elétrica	Energia Elétrica	COELBA      	CEEB	
+Utilidade Pública	Energia Elétrica	Energia Elétrica	COELCE      	COCE	
+Utilidade Pública	Energia Elétrica	Energia Elétrica	COPEL       	CPLE	N1             
+Utilidade Pública	Energia Elétrica	Energia Elétrica	COSERN      	CSRN	
+Utilidade Pública	Energia Elétrica	Energia Elétrica	CPFL ENERGIA	CPFE	NM             
+Utilidade Pública	Energia Elétrica	Energia Elétrica	CPFL GERACAO	CPFG	
+Utilidade Pública	Energia Elétrica	Energia Elétrica	CPFL PIRATIN	CPFP	
+Utilidade Pública	Energia Elétrica	Energia Elétrica	CPFL RENOVAV	CPRE	NM             
+Utilidade Pública	Energia Elétrica	Energia Elétrica	DUKE ENERGY	DUKB	DRN
+Utilidade Pública	Energia Elétrica	Energia Elétrica	EBE         	EBEN	
+Utilidade Pública	Energia Elétrica	Energia Elétrica	ELEKTRO     	EKTR	
+Utilidade Pública	Energia Elétrica	Energia Elétrica	ELETROBRAS  	ELET	N1             
+Utilidade Pública	Energia Elétrica	Energia Elétrica	ELETROPAR   	LIPR	
+Utilidade Pública	Energia Elétrica	Energia Elétrica	ELETROPAULO 	ELPL	NM             
+Utilidade Pública	Energia Elétrica	Energia Elétrica	EMAE        	EMAE	
+Utilidade Pública	Energia Elétrica	Energia Elétrica	ENERGIAS BR 	ENBR	NM             
+Utilidade Pública	Energia Elétrica	Energia Elétrica	ENERGISA    	ENGI	N2             
+Utilidade Pública	Energia Elétrica	Energia Elétrica	ENERSUL     	ENER	
+Utilidade Pública	Energia Elétrica	Energia Elétrica	ENEVA	ENEV	NM             
+Utilidade Pública	Energia Elétrica	Energia Elétrica	ENGIE BRASIL	EGIE	NM             
+Utilidade Pública	Energia Elétrica	Energia Elétrica	EQUATORIAL  	EQTL	NM             
+Utilidade Pública	Energia Elétrica	Energia Elétrica	ESCELSA     	ESCE	
+Utilidade Pública	Energia Elétrica	Energia Elétrica	GER PARANAP 	GEPA	
+Utilidade Pública	Energia Elétrica	Energia Elétrica	ITAPEBI     	ITPB	
+Utilidade Pública	Energia Elétrica	Energia Elétrica	LIGHT       	LIGH	
+Utilidade Pública	Energia Elétrica	Energia Elétrica	LIGHT S/A   	LIGT	NM             
+Utilidade Pública	Energia Elétrica	Energia Elétrica	NEOENERGIA  	NEOE	MB             
+Utilidade Pública	Energia Elétrica	Energia Elétrica	OMEGA GER	OMGE	NM             
+Utilidade Pública	Energia Elétrica	Energia Elétrica	PAUL F LUZ  	PALF	
+Utilidade Pública	Energia Elétrica	Energia Elétrica	PROMAN      	PRMN	MB             
+Utilidade Pública	Energia Elétrica	Energia Elétrica	REDE ENERGIA	REDE	
+Utilidade Pública	Energia Elétrica	Energia Elétrica	REDENTOR    	RDTR	
+Utilidade Pública	Energia Elétrica	Energia Elétrica	RENOVA      	RNEW	N2             
+Utilidade Pública	Energia Elétrica	Energia Elétrica	RIO GDE ENER	RGEG	
+Utilidade Pública	Energia Elétrica	Energia Elétrica	STATKRAFT	STKF	MA
+Utilidade Pública	Energia Elétrica	Energia Elétrica	TAESA       	TAEE	N2             
+Utilidade Pública	Energia Elétrica	Energia Elétrica	TERMOPE     	TMPE	
+Utilidade Pública	Energia Elétrica	Energia Elétrica	TRAN PAULIST	TRPL	N1             
+Utilidade Pública	Energia Elétrica	Energia Elétrica	UPTICK      	UPKP	MB             
+Utilidade Pública	Água e Saneamento	Água e Saneamento	CASAN       	CASN	
+Utilidade Pública	Água e Saneamento	Água e Saneamento	COPASA      	CSMG	NM             
+Utilidade Pública	Água e Saneamento	Água e Saneamento	IGUA SA  	IGSN	MA
+Utilidade Pública	Água e Saneamento	Água e Saneamento	SABESP      	SBSP	NM             
+Utilidade Pública	Água e Saneamento	Água e Saneamento	SANEPAR     	SAPR	N2             
+Utilidade Pública	Água e Saneamento	Água e Saneamento	SANESALTO   	SNST	
+Utilidade Pública	Gás	Gás	CEG         	CEGR	
+Utilidade Pública	Gás	Gás	COMGAS      	CGAS	
+Financeiro e Outros	Intermediários Financeiros	Bancos	ABC BRASIL  	ABCB	N2             
+Financeiro e Outros	Intermediários Financeiros	Bancos	ALFA HOLDING	RPAD	
+Financeiro e Outros	Intermediários Financeiros	Bancos	ALFA INVEST 	BRIV	
+Financeiro e Outros	Intermediários Financeiros	Bancos	AMAZONIA    	BAZA	
+Financeiro e Outros	Intermediários Financeiros	Bancos	BANCO PAN	BPAN	N1             
+Financeiro e Outros	Intermediários Financeiros	Bancos	BANESE      	BGIP	
+Financeiro e Outros	Intermediários Financeiros	Bancos	BANESTES    	BEES	
+Financeiro e Outros	Intermediários Financeiros	Bancos	BANK AMERICA	BOAC	DRN
+Financeiro e Outros	Intermediários Financeiros	Bancos	BANPARA     	BPAR	
+Financeiro e Outros	Intermediários Financeiros	Bancos	BANRISUL    	BRSR	N1             
+Financeiro e Outros	Intermediários Financeiros	Bancos	BANSANTANDER	BSAN	DR3
+Financeiro e Outros	Intermediários Financeiros	Bancos	BRADESCO    	BBDC	N1             
+Financeiro e Outros	Intermediários Financeiros	Bancos	BRASIL      	BBAS	NM             
+Financeiro e Outros	Intermediários Financeiros	Bancos	BRB BANCO   	BSLI	
+Financeiro e Outros	Intermediários Financeiros	Bancos	BTGP BANCO	BPAC	
+Financeiro e Outros	Intermediários Financeiros	Bancos	CITIGROUP   	CTGP	DRN
+Financeiro e Outros	Intermediários Financeiros	Bancos	GOLDMANSACHS	GSGI	DRN
+Financeiro e Outros	Intermediários Financeiros	Bancos	INDUSVAL    	IDVL	N2             
+Financeiro e Outros	Intermediários Financeiros	Bancos	ITAUSA      	ITSA	N1             
+Financeiro e Outros	Intermediários Financeiros	Bancos	ITAUUNIBANCO	ITUB	N1             
+Financeiro e Outros	Intermediários Financeiros	Bancos	JPMORGAN	JPMC	DRN
+Financeiro e Outros	Intermediários Financeiros	Bancos	MERC BRASIL 	BMEB	
+Financeiro e Outros	Intermediários Financeiros	Bancos	MERC INVEST 	BMIN	
+Financeiro e Outros	Intermediários Financeiros	Bancos	NORD BRASIL 	BNBR	
+Financeiro e Outros	Intermediários Financeiros	Bancos	PARANA      	PRBC	
+Financeiro e Outros	Intermediários Financeiros	Bancos	PATAGONIA   	BPAT	DR3
+Financeiro e Outros	Intermediários Financeiros	Bancos	PINE        	PINE	N2             
+Financeiro e Outros	Intermediários Financeiros	Bancos	SANTANDER BR	SANB	
+Financeiro e Outros	Intermediários Financeiros	Bancos	UBS GROUP	UBSG	DRN
+Financeiro e Outros	Intermediários Financeiros	Bancos	US BANCORP	USBC	DRN
+Financeiro e Outros	Intermediários Financeiros	Bancos	WELLS FARGO 	WFCO	DRN
+Financeiro e Outros	Intermediários Financeiros	Soc. Crédito e Financiamento	ALFA FINANC 	CRIV	
+Financeiro e Outros	Intermediários Financeiros	Soc. Crédito e Financiamento	FINANSINOS  	FNCN	
+Financeiro e Outros	Intermediários Financeiros	Soc. Crédito e Financiamento	MERC FINANC 	MERC	
+Financeiro e Outros	Intermediários Financeiros	Soc. Arrendamento Mercantil	BRADESCO LSG	BDLS	
+Financeiro e Outros	Intermediários Financeiros	Soc. Arrendamento Mercantil	BV LEASING  	BVLS	
+Financeiro e Outros	Intermediários Financeiros	Soc. Arrendamento Mercantil	DIBENS LSG  	DBEN	
+Financeiro e Outros	Securitizadoras de Recebíveis	Securitizadoras de Recebíveis	ALTERE SEC  	ALTR	
+Financeiro e Outros	Securitizadoras de Recebíveis	Securitizadoras de Recebíveis	BETA SECURIT	BTSC	
+Financeiro e Outros	Securitizadoras de Recebíveis	Securitizadoras de Recebíveis	BRAZIL REALT	BZRS	
+Financeiro e Outros	Securitizadoras de Recebíveis	Securitizadoras de Recebíveis	BRAZILIAN SC	BSCS	
+Financeiro e Outros	Securitizadoras de Recebíveis	Securitizadoras de Recebíveis	BRC SECURIT 	BRCS	
+Financeiro e Outros	Securitizadoras de Recebíveis	Securitizadoras de Recebíveis	BRPR 55 SEC	WTVP	
+Financeiro e Outros	Securitizadoras de Recebíveis	Securitizadoras de Recebíveis	BRPR 56 SEC	WTVR	
+Financeiro e Outros	Securitizadoras de Recebíveis	Securitizadoras de Recebíveis	GAIA AGRO   	GAFL	
+Financeiro e Outros	Securitizadoras de Recebíveis	Securitizadoras de Recebíveis	GAIA SECURIT	GAIA	MB             
+Financeiro e Outros	Securitizadoras de Recebíveis	Securitizadoras de Recebíveis	OCTANTE SEC	OCTS	
+Financeiro e Outros	Securitizadoras de Recebíveis	Securitizadoras de Recebíveis	PATRIA SEC  	NOOS	
+Financeiro e Outros	Securitizadoras de Recebíveis	Securitizadoras de Recebíveis	PDG SECURIT 	PDGS	
+Financeiro e Outros	Securitizadoras de Recebíveis	Securitizadoras de Recebíveis	POLO CAP SEC	PLSC	
+Financeiro e Outros	Securitizadoras de Recebíveis	Securitizadoras de Recebíveis	RBCAPITALRES	RBRA	MB             
+Financeiro e Outros	Securitizadoras de Recebíveis	Securitizadoras de Recebíveis	RBCAPITALSEC	RBCS	MB             
+Financeiro e Outros	Securitizadoras de Recebíveis	Securitizadoras de Recebíveis	WTORRE PIC  	WTPI	
+Financeiro e Outros	Serviços Financeiros Diversos	Gestão de Recursos e Investimentos	BLACKROCK	BLAK	DRN
+Financeiro e Outros	Serviços Financeiros Diversos	Gestão de Recursos e Investimentos	BNDESPAR    	BNDP	MB             
+Financeiro e Outros	Serviços Financeiros Diversos	Gestão de Recursos e Investimentos	BNY MELLON	BONY	DRN
+Financeiro e Outros	Serviços Financeiros Diversos	Gestão de Recursos e Investimentos	BRAZILIAN FR	BFRE	
+Financeiro e Outros	Serviços Financeiros Diversos	Gestão de Recursos e Investimentos	GP INVEST   	GPIV	DR3
+Financeiro e Outros	Serviços Financeiros Diversos	Gestão de Recursos e Investimentos	IDEIASNET   	IDNT	
+Financeiro e Outros	Serviços Financeiros Diversos	Gestão de Recursos e Investimentos	PPLA	PPLA	DR3
+Financeiro e Outros	Serviços Financeiros Diversos	Gestão de Recursos e Investimentos	TARPON INV  	TRPN	NM             
+Financeiro e Outros	Serviços Financeiros Diversos	Serviços Financeiros Diversos	AMERICAN EXP	AXPB	DRN
+Financeiro e Outros	Serviços Financeiros Diversos	Serviços Financeiros Diversos	B3 	B3SA	NM             
+Financeiro e Outros	Serviços Financeiros Diversos	Serviços Financeiros Diversos	CIELO       	CIEL	NM             
+Financeiro e Outros	Serviços Financeiros Diversos	Serviços Financeiros Diversos	MASTERCARD  	MSCD	DRN
+Financeiro e Outros	Serviços Financeiros Diversos	Serviços Financeiros Diversos	MORGAN STAN	MSBR	DRN
+Financeiro e Outros	Serviços Financeiros Diversos	Serviços Financeiros Diversos	SCHWAB	SCHW	DRN
+Financeiro e Outros	Serviços Financeiros Diversos	Serviços Financeiros Diversos	VISA INC	VISA	DRN
+Financeiro e Outros	Serviços Financeiros Diversos	Serviços Financeiros Diversos	WESTERNUNION	WUNI	DRN
+Financeiro e Outros	Previdência e Seguros	Seguradoras	AIG GROUP	AIGB	DRN
+Financeiro e Outros	Previdência e Seguros	Seguradoras	ALFA CONSORC	BRGE	
+Financeiro e Outros	Previdência e Seguros	Seguradoras	BBSEGURIDADE	BBSE	NM             
+Financeiro e Outros	Previdência e Seguros	Seguradoras	IRBBRASIL RE	IRBR	NM             
+Financeiro e Outros	Previdência e Seguros	Seguradoras	METLIFE INC	METB	DRN
+Financeiro e Outros	Previdência e Seguros	Seguradoras	PORTO SEGURO	PSSA	NM             
+Financeiro e Outros	Previdência e Seguros	Seguradoras	SEG AL BAHIA	CSAB	
+Financeiro e Outros	Previdência e Seguros	Seguradoras	SUL AMERICA 	SULA	N2             
+Financeiro e Outros	Previdência e Seguros	Seguradoras	TRAVELERS	TRVC	DRN
+Financeiro e Outros	Previdência e Seguros	Corretoras de Seguros	BR INSURANCE	BRIN	NM             
+Financeiro e Outros	Previdência e Seguros	Corretoras de Seguros	WIZ S.A.	WIZS	NM             
+Financeiro e Outros	Exploração de Imóveis	Exploração de Imóveis	ALIANSCE    	ALSC	NM             
+Financeiro e Outros	Exploração de Imóveis	Exploração de Imóveis	BOSTON PROP	BOXP	DRN
+Financeiro e Outros	Exploração de Imóveis	Exploração de Imóveis	BR MALLS PAR	BRML	NM             
+Financeiro e Outros	Exploração de Imóveis	Exploração de Imóveis	BR PROPERT  	BRPR	NM             
+Financeiro e Outros	Exploração de Imóveis	Exploração de Imóveis	COR RIBEIRO 	CORR	
+Financeiro e Outros	Exploração de Imóveis	Exploração de Imóveis	CYRE COM-CCP	CCPR	NM             
+Financeiro e Outros	Exploração de Imóveis	Exploração de Imóveis	GENERALSHOPP	GSHP	NM             
+Financeiro e Outros	Exploração de Imóveis	Exploração de Imóveis	HABITASUL   	HBTS	
+Financeiro e Outros	Exploração de Imóveis	Exploração de Imóveis	IGB S/A     	IGBR	
+Financeiro e Outros	Exploração de Imóveis	Exploração de Imóveis	IGUATEMI    	IGTA	NM             
+Financeiro e Outros	Exploração de Imóveis	Exploração de Imóveis	JEREISSATI  	JPSA	
+Financeiro e Outros	Exploração de Imóveis	Exploração de Imóveis	LOJAS HERING	LHER	
+Financeiro e Outros	Exploração de Imóveis	Exploração de Imóveis	MENEZES CORT	MNZC	MB             
+Financeiro e Outros	Exploração de Imóveis	Exploração de Imóveis	MULTIPLAN   	MULT	N2             
+Financeiro e Outros	Exploração de Imóveis	Exploração de Imóveis	SAO CARLOS  	SCAR	NM             
+Financeiro e Outros	Exploração de Imóveis	Exploração de Imóveis	SIERRABRASIL	SSBR	NM             
+Financeiro e Outros	Exploração de Imóveis	Intermediação Imobiliária	BR BROKERS  	BBRK	NM             
+Financeiro e Outros	Exploração de Imóveis	Intermediação Imobiliária	LOPES BRASIL	LPSB	NM             
+Financeiro e Outros	Holdings Diversificadas	Holdings Diversificadas	3M	MMMC	DRN
+Financeiro e Outros	Holdings Diversificadas	Holdings Diversificadas	AGCONCESSOES	ANDG	MB             
+Financeiro e Outros	Holdings Diversificadas	Holdings Diversificadas	AGPART      	CANT	MB             
+Financeiro e Outros	Holdings Diversificadas	Holdings Diversificadas	BATTISTELLA 	BTTL	
+Financeiro e Outros	Holdings Diversificadas	Holdings Diversificadas	BERKSHIRE	BERK	DRN
+Financeiro e Outros	Holdings Diversificadas	Holdings Diversificadas	DANAHER CORP	DHER	DRN
+Financeiro e Outros	Holdings Diversificadas	Holdings Diversificadas	DOWDUPONT	DWDP	DRN
+Financeiro e Outros	Holdings Diversificadas	Holdings Diversificadas	GE          	GEOO	DRN
+Financeiro e Outros	Holdings Diversificadas	Holdings Diversificadas	HONEYWELL	HONB	DRN
+Financeiro e Outros	Holdings Diversificadas	Holdings Diversificadas	J B DUARTE  	JBDU	
+Financeiro e Outros	Holdings Diversificadas	Holdings Diversificadas	MONT ARANHA 	MOAR	
+Financeiro e Outros	Holdings Diversificadas	Holdings Diversificadas	PAR AL BAHIA	PEAB	
+Financeiro e Outros	Holdings Diversificadas	Holdings Diversificadas	SPRINGER    	SPRI	
+Financeiro e Outros	Outros	Outros	524 PARTICIP	QVQP	MB             
+Financeiro e Outros	Outros	Outros	AES ELPA    	AELP	
+Financeiro e Outros	Outros	Outros	ALEF S/A    	ALEF	MB             
+Financeiro e Outros	Outros	Outros	ATOMPAR	ATOM	
+Financeiro e Outros	Outros	Outros	BETAPART    	BETP	MB             
+Financeiro e Outros	Outros	Outros	CABINDA PART	CABI	MB             
+Financeiro e Outros	Outros	Outros	CACONDE PART	CACO	MB             
+Financeiro e Outros	Outros	Outros	CAPITALPART 	CPTP	MB             
+Financeiro e Outros	Outros	Outros	CCX CARVAO	CCXC	NM             
+Financeiro e Outros	Outros	Outros	CEMEPE      	MAPT	
+Financeiro e Outros	Outros	Outros	CIMS        	CMSA	
+Financeiro e Outros	Outros	Outros	ELETRON     	ETRO	MB             
+Financeiro e Outros	Outros	Outros	FUTURETEL   	FTRT	MB             
+Financeiro e Outros	Outros	Outros	GAMA PART   	OPGM	MB             
+Financeiro e Outros	Outros	Outros	INVEST BEMGE	FIGE	
+Financeiro e Outros	Outros	Outros	LONGDIS     	SPRT	MB             
+Financeiro e Outros	Outros	Outros	MGI PARTICIP	MGIP	
+Financeiro e Outros	Outros	Outros	NEWTEL PART 	NEWT	MB             
+Financeiro e Outros	Outros	Outros	OPPORT ENERG	OPHE	MB             
+Financeiro e Outros	Outros	Outros	POLPAR      	PPAR	
+Financeiro e Outros	Outros	Outros	PROMPT PART 	PRPT	MB             
+Financeiro e Outros	Outros	Outros	RET PART    	OPRE	MB             
+Financeiro e Outros	Outros	Outros	SELECTPART  	SLCT	MB             
+Financeiro e Outros	Outros	Outros	SUDESTE S/A 	OPSE	MB             
+Financeiro e Outros	Outros	Outros	SUL 116 PART	OPTS	MB             
+Financeiro e Outros	Outros	Outros	TELINVEST   	TLVT	MB             
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII A BRANCA	FPAB	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII ABC IMOB	ABCP	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII ABSOLUTO	BPFF	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII AESAPAR	AEFI	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII AG CAIXA	AGCX	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII ALIANZA	ALZR	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII ALMIRANT	FAMB	MB             
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII ANCAR IC	ANCR	MB             
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII ANH EDUC	FAED	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII AQUIL RD 	ARFI	MB             
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII AQUILLA	AQLL	MB             
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII ATICO	ATCR	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII B VAREJO	BVAR	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII BANRISUL	BNFS	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII BB CORP 	BBRC	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII BB PRGII	BBPO	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII BB PROGR	BBFI	MB             
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII BB R PAP	RNDP	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII BB RECIM	BBIM	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII BC FFII 	BCFF	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII BC FUND	BRCR	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII BCIA	BCIA	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII BEES CRI 	BCRI 	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII BM THERA	THRA	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII BMBRC LC	BMLC	MB             
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII BRASILIO	BMII	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII BRHOTEIS	BRHT	MB             
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII BRREALTY	BZLI	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII BTGMALLS	BTGM	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII C BRANCO	CBOP	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII C JARDIM	BBVJ	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII C TEXTIL	CTXT	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII CAMPUSFL	FCFL	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII CAPI SEC	CPTS	MB             
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII CASTELO	FCAS	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII CENESP	CNES	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII CEO CCP	CEOC	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII CRIANCA 	HCRI	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII CSHG CRI	HGCR	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII CSHG LOG	HGLG	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII CSHGATSA	ATSA	MB             
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII CSHGFOFT 	FOFT	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII CSHGJHSF	HGJH	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII CSHGSHOP	HGBS	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII CX CEDAE	CXCE	MB             
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII CX RBRAV	CXRI	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII CX TRX	CXTL	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII D PEDRO 	PQDP	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII DEA CARE 	CARE	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII DOMINGOS 	FISD	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII DOMO	DOMC	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII DOVEL	DOVL	MB             
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII ELDORADO 	ELDO	MB             
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII EUROPAR 	EURO	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII EV KINEA	KINP	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII EXCELLEN	FEXC	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII FATOR VE	VRTA	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII FATORFIX	FIXX	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII FLORIPA 	FLRP	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII GALERIA	EDGA	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII GEN SHOP	FIGS	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII GGRCOVEP	GGRC	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII GWI RI	GWIR	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII HEDGEFOF	HFOF	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII HG REAL 	HGRE	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII HIGIENOP	SHPH	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII HOTEL MX	HTMX	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII INDL BR	FIIB	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII INFRA RE 	FINF	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII IRIDIUM	IRDM	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII JHSF FBV	RBBV	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII JPP CAPI	JPPC	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII JS REAL 	JSRE	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII JT PREV	JTPR	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII KII REAL	KNRE	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII KINEA   	KNRI	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII KINEA RI	KNCR	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII LATERES	LATR	MB             
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII LOURDES 	NSLU	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII LOUVEIRA	GRLV	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII MALLS BP	MALL	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII MAX RET 	MAXR	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII MAXI REN	MXRF	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII MEMORIAL	FMOF	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII MERC BR	MBRF	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII MERITO I 	MFII	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII MTGESTAO	DRIT	MB             
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII MULTPROP	PRTS	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII MULTSHOP	SHOP	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII NCH BRA	NCHB	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII NESTPAR	NPAR	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII NOVOHORI 	NVHO	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII OLIMPIA	VLOL	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII OPPORTUN	FTCE	MB             
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII OURI JPP	OUJP	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII OURINVES	EDFO	MB             
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII P NEGRA 	FPNG	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII P VARGAS	PRSV	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII PANAMBY 	PABY	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII PERSONAL	PRSN	MB             
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII POLO CRI	PORD	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII POLO I	PLRI	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII POLO SHO	VPSI	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII RB CAP I	FIIP	MB             
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII RB GSB I	RBGS	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII RB II   	RBRD	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII RBRALPHA	RBRF	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII RBRESID2	RBDS	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII RD ESCRI	RDES	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII REIT RIV	REIT	MB             
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII RIOB RC 	FFCI	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII RIOBCRI2	RBVO	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII RIOBRCIB	RBCB	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII RIONEGRO	RNGO	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII S F LIMA	FLMA	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII SANT AGE	SAAG	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII SAO FER 	SFND	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII SCP     	SCPF	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII SDI LOG	SDIL	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII SHOP PDP	SHDP	MB             
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII SHOPJSUL	JRDM	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII SIA CORP	SAIC	MB             
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII SP DOWNT	SPTW	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII SPA	SPAF	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII TBOFFICE	TBOF	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII TG ATIVO	TGAR	MB             
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII THE ONE	ONEF	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII TOPFOFII	TFOF	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII TORRE AL	ALMI	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII TORRE NO	TRNT	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII TRANSINC	TSNC	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII TRX LOG 	TRXL	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII TRXE COR	XTED	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII UBS (BR)	UBSR	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII V PARQUE	FVPQ	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII VBI 4440	FVBI	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII VEREDA	VERE	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII VIDANOVA	FIVN	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII VINCI SC	VISC	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII VQ LAJES	VLJS	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII W PLAZA 	WPLZ	MB             
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII XP MACAE	XPCM	
+Financeiro e Outros	Fundos	Fundos Imobiliários	FII XP MALLS	XPML	
+Financeiro e Outros	Fundos	Fundos de Ações	BB ETF SP DV	BBSD	
+Financeiro e Outros	Fundos	Fundos de Ações	CAIXAETFXBOV	XBOV	
+Financeiro e Outros	Fundos	Fundos de Ações	FIA FATOR SG	SING	
+Financeiro e Outros	Fundos	Fundos de Ações	FIA TOP DIV 	XPTD	
+Financeiro e Outros	Fundos	Fundos de Ações	FIP CONQUEST	FCCQ	
+Financeiro e Outros	Fundos	Fundos de Ações	FIP IE I	ESUU	
+Financeiro e Outros	Fundos	Fundos de Ações	FIP IE II	ESUD	
+Financeiro e Outros	Fundos	Fundos de Ações	FIP IE III	ESUT	
+Financeiro e Outros	Fundos	Fundos de Ações	FIP INSTITUT	OPEQ	MB             
+Financeiro e Outros	Fundos	Fundos de Ações	FIP NVRAPOSO	NVRP	
+Financeiro e Outros	Fundos	Fundos de Ações	FIP OPP HOLD	OPHF	MB             
+Financeiro e Outros	Fundos	Fundos de Ações	FIP PORT SUD	FPOR	
+Financeiro e Outros	Fundos	Fundos de Ações	FIP XP OMEGA	XPOM	
+Financeiro e Outros	Fundos	Fundos de Ações	ISHARE SP500	IVVB	
+Financeiro e Outros	Fundos	Fundos de Ações	ISHARES BOVA	BOVA	
+Financeiro e Outros	Fundos	Fundos de Ações	ISHARES BRAX	BRAX	
+Financeiro e Outros	Fundos	Fundos de Ações	ISHARES ECOO	ECOO	
+Financeiro e Outros	Fundos	Fundos de Ações	ISHARES SMAL	SMAL	
+Financeiro e Outros	Fundos	Fundos de Ações	IT NOW IBOV 	BOVV	
+Financeiro e Outros	Fundos	Fundos de Ações	IT NOW IDIV	DIVO	
+Financeiro e Outros	Fundos	Fundos de Ações	IT NOW IFNC 	FIND	
+Financeiro e Outros	Fundos	Fundos de Ações	IT NOW IGCT	GOVE	
+Financeiro e Outros	Fundos	Fundos de Ações	IT NOW IMAT	MATB	
+Financeiro e Outros	Fundos	Fundos de Ações	IT NOW ISE	ISUS	
+Financeiro e Outros	Fundos	Fundos de Ações	IT NOW PIBB 	PIBB	
+Financeiro e Outros	Fundos	Fundos de Ações	IT NOW SPXI 	SPXI	
+Financeiro e Outros	Fundos	Fundos de Direitos Creditórios	FDC BURITI	OPIM	MB             
+Financeiro e Outros	Fundos	Fundos de Direitos Creditórios	FDC INFRA	BBVH	
+Financeiro e Outros	Fundos	Fundos de Direitos Creditórios	FDC LECCA   	LECA	MB             
+Financeiro e Outros	Fundos	Fundos de Direitos Creditórios	FDC NP DB I 	NPPF	MB             
+Financeiro e Outros	Fundos	Fundos de Direitos Creditórios	FDC POLO    	PLPF	MB             
+Financeiro e Outros	Fundos	Fundos de Direitos Creditórios	FDC UNION AG	UNAG	MB             
+Financeiro e Outros	Fundos	Fundos de Direitos Creditórios	FDC UNIVERSI	IDLQ	
+Financeiro e Outros	Fundos	Fundos de Direitos Creditórios	FDC VALECRED	VLCR	MB             
+Financeiro e Outros	Fundos	Fundos de Incentivo Setorial	FINAM       	FNAM	
+Financeiro e Outros	Fundos	Fundos de Incentivo Setorial	FINOR       	FNOR	
+Financeiro e Outros	Fundos	Fundos de Incentivo Setorial	FISET FL REF	FSRF	
+Financeiro e Outros	Fundos	Fundos de Incentivo Setorial	FISET PESCA 	FSPE	
+Financeiro e Outros	Fundos	Fundos de Incentivo Setorial	FISET TUR   	FSTU	
+Financeiro e Outros	Fundos	Fundos de Incentivo Setorial	FUNDES      	FDES	
+Financeiro e Outros	Outros Títulos	Outros Títulos	CEPAC - CTBA	CTBA	MB             
+Financeiro e Outros	Outros Títulos	Outros Títulos	CEPAC - MCRJ	MCRJ	MB             
+Financeiro e Outros	Outros Títulos	Outros Títulos	CEPAC - PMSP	PMSP	MB             
