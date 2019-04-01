@@ -12,6 +12,8 @@ class bovespa extends Controller
                                       GROUP BY 1
                                       HAVING sum(1)>0
                                       ORDER BY segmento';
+    const QTD_PAGINAS = 'SELECT ceil(count(*)/{{qtdPagina}}) as qtd
+                                      FROM financas.vw_mais_negociadas_ultm_prgo_setor';
     const SQL_RANK =  "SELECT fl_favorito as Fav
                                         ,segmento
                                         ,cod_papel
@@ -38,30 +40,58 @@ class bovespa extends Controller
     protected $segmento;
     protected $volMin;
     protected $volMax;
+    protected $pagina;
+    protected $limitesVolume;
+    protected $qtdPagina;
     
     public function __construct()
     {
+        $this->limitesVolume = Array(   1000
+                                                , 100000
+                                                , 500000
+                                                , 1000000
+                                                , 2000000
+                                                , 3000000
+                                                , 4000000
+                                                , 5000000
+                                                , 10000000
+                                                , 20000000
+                                                , 30000000
+                                                , 40000000
+                                                , 50000000
+                                                , 60000000
+                                                , 70000000
+                                                , 80000000
+                                                , 90000000
+                                                , 100000000);
         $view = '';
         $this->home = $_SERVER['PHP_SELF'];
-        
         Model::Connect();
         
-        $this->volMin = 5;
-        if (isset($_GET['vol_min']))
-            $this->volMin = (int)$_GET['vol_min'];
-            $this->params .= '&vol_min='.$this->volMin;
-        $this->volMax = 10;
-        if (isset($_GET['vol_max']))
-            $this->volMax = (int)$_GET['vol_max'];
-            $this->params .= '&vol_max='.$this->volMax;
-            
+        $this->qtdPagina = 25;
+        if (isset($_GET['qtd_pagina']))
+            $this->qtdPagina = (int)$_GET['qtd_pagina'];
+        
+        $this->pagina = 1;        
+        if (isset($_GET['pagina']))
+            $this->pagina = (int)$_GET['pagina'];
+
         if (isset($_GET['segmento']))
             $this->segmento = $_GET['segmento'];
-            $this->params .= '&segmento='.$this->segmento;
             
+        if (isset($_GET['orderby']))
+            $this->orderby = $_GET['orderby'];
+
+        $this->volMin = 0;            
+        if (isset($_GET['vol_min']) && $_GET['vol_min']>0)
+            $this->volMin = $_GET['vol_min'];
+        
+        $this->volMax = 0;   
+        if (isset($_GET['vol_max']) && $_GET['vol_max']>0)
+            $this->volMax = $_GET['vol_max'];
+          
         if(isset($_GET['cod_papel'])){
             $this->codPapel = $_GET['cod_papel'];
-           $this->params .= '&cod_papel='.$this->codPapel; 
             $view = 'acao';
         }
         
@@ -73,21 +103,38 @@ class bovespa extends Controller
             }else{
                  $rs = $this->models['favoritos']->query(self::INS_ACAO_FAV."'".$_GET['fav']."'");
             }
+            unset($_GET['fav']);
         }
         
         switch($view){
-            case 'acao':            
+            case 'acao':
                 $this->models = Array('acao'=>new Model);
                 $this->models['acao']->query(self::SQL_ACAO.'"'.$this->codPapel.'" ORDER BY '.$this->orderby('DATA_PREGAO'));
                 $this->output .= $this->includeView('bovespa/views/acao.php');
             break;
             
             default:
-                $segmento = '';
-                	if ($this->segmento) $segmento=' segmento="'.$this->segmento.'"';
-                $this->models = Array('segmento'=>new Model, 'rank'=>new Model);
+                $this->models = Array('segmento'=>new Model, 'rank'=>new Model, 'qtd_pag'=>new Model);
+                
                 $this->models['segmento']->query(self::SQL_SEGMENTO);
-                $sqlrank = self::SQL_RANK.' WHERE '.(($segmento=='')?'QTD_TOTAL BETWEEN '.(500000*$this->volMin).' AND '.(500000*$this->volMax):$segmento).' ORDER BY '.$this->orderby('VAR_ANO');
+                
+                $where = '';
+                if ($this->volMin)
+                    $where .= 'QTD_TOTAL '.(($this->volMax)?'between '.$this->volMin.' AND '.$this->volMax:'>='.$this->volMin);
+                if ($this->segmento){
+                    if ($where != '') $where .=' AND ';
+                    $where .= 'SEGMENTO = "'.$this->segmento.'"';
+                }
+                if($where) $where = ' WHERE '.$where;
+                
+                $limit = ' LIMIT '.(($this->qtdPagina*$this->pagina)-($this->qtdPagina)).', '.$this->qtdPagina;
+                
+                $orderby = ' ORDER BY '.$this->orderby('VAR_ANO'); 
+                
+                $sqlQtd = str_replace('{{qtdPagina}}', $this->qtdPagina, self::QTD_PAGINAS).$where;
+                $this->models['qtd_pag']->query($sqlQtd);
+                
+                $sqlrank = 'SELECT * FROM ('.self::SQL_RANK.$where.$limit.') as sub_qry '.$orderby;
                 $this->models['rank']->query($sqlrank);
                 $this->output .= $this->includeView('bovespa/views/default.php');
         }
@@ -95,7 +142,19 @@ class bovespa extends Controller
         include 'app/default.template.php';
     }
     
-    private function orderby($default){
+    protected function addParams($key, $value){
+        $_GET[$key] = $value;
+    }
+    
+    protected function removeParams($key){
+        unset($_GET[$key]);
+    }
+    
+    protected function params (){
+        return parent::params();     
+    }
+    
+    protected function orderby($default){
         return (isset($_GET['orderby'])?$_GET['orderby']:$default);
     }
 }

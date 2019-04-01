@@ -1,4 +1,5 @@
 investimentos/
+node_modules/
 index_.php
 snes/
 teste*.*

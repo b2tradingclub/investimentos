@@ -7,7 +7,6 @@ class Controller
     protected $orderby;
     protected $model;
     protected $output;
-    protected $params;
     
     protected function includeView($file){
         
@@ -18,6 +17,16 @@ class Controller
         }
         
         return false;
+    }
+    
+    protected function params(){
+        $i=0;
+        $params = '';
+        foreach ($_GET as $key => $value){
+            $params .= (($i)?'&':'').$key.'='.$value;
+            $i++;
+        }
+        return $params;
     }
 }
 ?>

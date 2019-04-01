@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/viniciusosousa/investimentos/issues"
   },
-  "homepage": "https://github.com/viniciusosousa/investimentos#readme"
+  "homepage": "https://github.com/viniciusosousa/investimentos#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.8.1"
+  }
 }
