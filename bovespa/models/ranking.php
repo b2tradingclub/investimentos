@@ -116,10 +116,10 @@ class Ranking extends Model
 		{
 			if ($this->volMax)
 			{
-				$qtd .= 'QTD_TOTAL between '.$this->volMin.' AND '.$this->volMax;
+				$qtdFilter = 'QTD_TOTAL between '.$this->volMin.' AND '.$this->volMax;
 			} else
 			{
-				$qtd .= 'QTD_TOTAL >='.$this->volMin;
+				$qtdFilter = 'QTD_TOTAL >='.$this->volMin;
 			}
 		}
 
@@ -134,7 +134,7 @@ class Ranking extends Model
 		$where = array();
 		if($qtdFilter) array_push($where, $qtdFilter);
 		if($segmentoFilter) array_push($where, $segmentoFilter);
-        if (count($where)) return 'WHERE '.implode(' AND ',$where);
+        if (count($where)) return ' WHERE '.implode(' AND ',$where);
 		return '';
 	}
 
