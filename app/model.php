@@ -5,53 +5,57 @@ class Model
 {
     const SERVER = "0.0.0.0:3306";
     const UNAME = "root";
-    
+
     public static $conn;
     public $rs;
     public $sql;
 
     public $colunas;
     public $linhas;
-    
+
+	public function __construct()
+	{
+		Model::Connect();
+	}
+
     public static function connect()
     {
         if(!isset(Model::$conn)){
             Model::$conn = new \mysqli(Model::SERVER, Model::UNAME);
-            if(Model::$conn->connect_error) 
+            if(Model::$conn->connect_error)
                 die("Erro ao conectar: ".Model::$conn->connect_error);
-            Model::$conn->set_charset("utf8"); 
+            Model::$conn->set_charset("utf8");
         }
         return Model::$conn;
     }
-    
+
     public function fetchRow($assoc = false)
-    {  
+    {
         if(isset($this->rs)){
             $this->linhas = ($assoc)?$this->rs->fetch_assoc():$this->rs->fetch_row();
             return $this->linhas;
         }
         return false;
     }
-    
-    public function query($sql)
+
+    public function query()
     {
-        if($sql){  
-        $this->sql = $sql;
-        /*echo $sql.'<br>';*/
-        $this->rs = Model::$conn->query($sql);
+        if($this->sql){
+        /*echo $this->sql.'<br>';*/
+        $this->rs = Model::$conn->query($this->sql);
         if(isset($this->rs) and gettype($this->rs)=='object'){
-            $objcolunas = $this->rs->fetch_fields();           
+            $objcolunas = $this->rs->fetch_fields();
             $this->colunas = array_map(function($obj){return $obj->name;}, $objcolunas);
         }
        }
     return $this->rs;
     }
-    
+
     public static function exeSqlFile($filename){
         $file = fopen($filename, 'r') or die("Nao foi possível abrir o arquivo $filename");
         $sql = explode(";",fread($file, filesize($filename)));
         fclose($file);
-        
+
         $qtdSql = count($sql);
         echo '<code>';
         Model::Connect();
@@ -64,9 +68,13 @@ class Model
 				                 echo '<span style="color: red">Erro: '.Model::$conn->error.'</span><br><br>';
 			              }
            }
-	
+
         }
         echo '</code>';
+    }
+
+    public function orderby($default){
+        return (!empty($_GET['orderby'])?$_GET['orderby']:$default);
     }
 }
 ?>

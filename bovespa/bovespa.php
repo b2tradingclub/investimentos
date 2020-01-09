@@ -2,160 +2,158 @@
 namespace vini\bovespa;
 use vini\app\Controller;
 use vini\app\Model;
+use vini\bovespa\models\ranking;
+use vini\bovespa\models\acao;
 
-class bovespa extends Controller
+class Bovespa extends Controller
 {
-    const SQL_SEGMENTO = 'SELECT segmento, sum(1) as qtd
-                                      FROM financas.vw_mais_negociadas_ultm_prgo_setor 
-                                      WHERE QTD_TOTAL >= 100000
-                                      AND segmento IS NOT NULL
-                                      GROUP BY 1
-                                      HAVING sum(1)>0
-                                      ORDER BY segmento';
-    const QTD_PAGINAS = 'SELECT ceil(count(*)/{{qtdPagina}}) as qtd
-                                      FROM financas.vw_mais_negociadas_ultm_prgo_setor';
-    const SQL_RANK =  "SELECT fl_favorito as Fav
-                                        ,segmento
-                                        ,cod_papel
-                                        ,nom_res
-                                        ,preco_ult
-                                        ,var_dia
-                                        ,var_mes
-                                        ,var_ano
-                                        ,qtd_total
-                               FROM financas.vw_mais_negociadas_ultm_prgo_setor";
-    const SQL_ACAO =  "SELECT  data_pregao
-                                         ,preco_ult
-                                         ,var_dia
-                                         ,var_mes
-                                         ,var_ano
-                                         ,qtd_total
-                               FROM financas.vw_hist_cotacao
-                               WHERE cod_papel=";
-    const INS_ACAO_FAV = "INSERT IGNORE INTO financas.DIM_ACAO_FAVORITOS SET COD_PAPEL=";
-    const DEL_ACAO_FAV = "DELETE FROM financas.DIM_ACAO_FAVORITOS WHERE COD_PAPEL=";
-    const SEL_ACAO_FAV = "SELECT COD_PAPEL FROM financas.DIM_ACAO_FAVORITOS WHERE COD_PAPEL=";
-    
-    protected $codPapel;
-    protected $segmento;
-    protected $volMin;
-    protected $volMax;
-    protected $pagina;
-    protected $limitesVolume;
-    protected $qtdPagina;
-    
     public function __construct()
     {
-        $this->limitesVolume = Array(   1000
-                                                , 100000
-                                                , 500000
-                                                , 1000000
-                                                , 2000000
-                                                , 3000000
-                                                , 4000000
-                                                , 5000000
-                                                , 10000000
-                                                , 20000000
-                                                , 30000000
-                                                , 40000000
-                                                , 50000000
-                                                , 60000000
-                                                , 70000000
-                                                , 80000000
-                                                , 90000000
-                                                , 100000000);
-        $view = '';
-        $this->home = $_SERVER['PHP_SELF'];
-        Model::Connect();
-        
-        $this->qtdPagina = 25;
-        if (isset($_GET['qtd_pagina']))
-            $this->qtdPagina = (int)$_GET['qtd_pagina'];
-        
-        $this->pagina = 1;        
-        if (isset($_GET['pagina']))
-            $this->pagina = (int)$_GET['pagina'];
 
-        if (isset($_GET['segmento']))
-            $this->segmento = $_GET['segmento'];
-            
-        if (isset($_GET['orderby']))
-            $this->orderby = $_GET['orderby'];
-
-        $this->volMin = 0;            
-        if (isset($_GET['vol_min']) && $_GET['vol_min']>0)
-            $this->volMin = $_GET['vol_min'];
-        
-        $this->volMax = 0;   
-        if (isset($_GET['vol_max']) && $_GET['vol_max']>0)
-            $this->volMax = $_GET['vol_max'];
-          
+	    $view = '';
         if(isset($_GET['cod_papel'])){
-            $this->codPapel = $_GET['cod_papel'];
             $view = 'acao';
         }
-        
-        if(isset($_GET['fav'])){
-            $this->models = Array('favoritos'=> new Model);
-            $rs = $this->models['favoritos']->query(self::SEL_ACAO_FAV."'".$_GET['fav']."'");
-            if($rs->num_rows){
-                 $rs = $this->models['favoritos']->query(self::DEL_ACAO_FAV."'".$_GET['fav']."'");
-            }else{
-                 $rs = $this->models['favoritos']->query(self::INS_ACAO_FAV."'".$_GET['fav']."'");
-            }
-            unset($_GET['fav']);
-        }
-        
+
         switch($view){
             case 'acao':
-                $this->models = Array('acao'=>new Model);
-                $this->models['acao']->query(self::SQL_ACAO.'"'.$this->codPapel.'" ORDER BY '.$this->orderby('DATA_PREGAO'));
+                $this->model = new Acao;
                 $this->output .= $this->includeView('bovespa/views/acao.php');
             break;
-            
+
             default:
-                $this->models = Array('segmento'=>new Model, 'rank'=>new Model, 'qtd_pag'=>new Model);
-                
-                $this->models['segmento']->query(self::SQL_SEGMENTO);
-                
-                $where = '';
-                if ($this->volMin)
-                    $where .= 'QTD_TOTAL '.(($this->volMax)?'between '.$this->volMin.' AND '.$this->volMax:'>='.$this->volMin);
-                if ($this->segmento){
-                    if ($where != '') $where .=' AND ';
-                    $where .= 'SEGMENTO = "'.$this->segmento.'"';
-                }
-                if($where) $where = ' WHERE '.$where;
-                
-                $limit = ' LIMIT '.(($this->qtdPagina*$this->pagina)-($this->qtdPagina)).', '.$this->qtdPagina;
-                
-                $orderby = ' ORDER BY '.$this->orderby('VAR_ANO'); 
-                
-                $sqlQtd = str_replace('{{qtdPagina}}', $this->qtdPagina, self::QTD_PAGINAS).$where;
-                $this->models['qtd_pag']->query($sqlQtd);
-                
-                $sqlrank = 'SELECT * FROM ('.self::SQL_RANK.$where.$limit.') as sub_qry '.$orderby;
-                $this->models['rank']->query($sqlrank);
-                $this->output .= $this->includeView('bovespa/views/default.php');
+				$this->model = new Ranking;
+                $this->output .= $this->includeView('bovespa/views/default_responsive.php');
         }
-        
-        include 'app/default.template.php';
     }
-    
-    protected function addParams($key, $value){
-        $_GET[$key] = $value;
-    }
-    
-    protected function removeParams($key){
-        unset($_GET[$key]);
-    }
-    
-    protected function params (){
-        return parent::params();     
-    }
-    
-    protected function orderby($default){
-        return (isset($_GET['orderby'])?$_GET['orderby']:$default);
-    }
+
+	protected function renderOption($iterator, $selectedValue, $number = false)
+	{
+		$option = '';
+$limite = (\is_array($iterator))?count($iterator):$iterator;
+		for ($i=1; $i<=$limite; $i++ ){
+			$value = (\is_array($iterator))?$iterator[$i-1]:$i;
+			$selected = ($selectedValue==$value)?' selected':'';
+			$option .= '<option value="'.$value.'"'.$selected.'>';
+			$option .= ($number)?number_format($value,0,',','.'):$value;
+			$option .='</option>';
+      	}
+		echo $option;
+	}
+
+	protected function renderArrayJSON($arrayDados)
+	{
+		echo json_encode($arrayDados);
+	}
+
+	protected function renderAcoes($arrayDados)
+	{
+		foreach ($arrayDados as $linha)
+		{
+			echo '<div class="card">';
+			echo '<div class="card-header">';
+			$this->addParams('fav', $linha['COD_PAPEL']);
+			echo '<a href="'.$this->home().'">';
+			$this->removeParams('fav');
+			$flFavorito = $linha['Fav'];
+			echo '<i class="'.(($flFavorito)?'fas':'far').' fa-heart"></i></a>';
+			echo  '<a href="'.$_SERVER['PHP_SELF'].'?'.'cod_papel='.$linha['COD_PAPEL'].'"><h5 class="float-left">'.$linha['COD_PAPEL'].' - '.$linha['NOM_RES'].'</h5></a> <h4 class="float-right">'.$this->formatData('PRECO',$linha['PRECO_ULT']).'</h4></div>';
+
+			echo '<div class="card-body">';
+			echo '<table class="table table-sm text-center">';
+			echo '<thead><tr><th></th>';
+			$this->addParams('orderby', 'VAR_DIA');
+			echo '<th><a href="'.$this->home().'">D</a></th>';
+			$this->removeParams('orderby');
+			$this->addParams('orderby', 'VAR_MES');
+			echo '<th><a href="'.$this->home().'">M</a></th>';
+			$this->removeParams('orderby');
+			$this->addParams('orderby', 'VAR_ANO');
+			echo '<th><a href="'.$this->home().'">A</a></th>';
+			$this->removeParams('orderby');
+			if($this->orderby) $this->addParams('orderby', $this->orderby);
+			echo '</tr></thead>';
+			echo '<tbody>';
+echo '<tr><td>Ultimo</td><td>'.$this->formatData('VAR', $linha['VAR_DIA']).'</td><td>'.$this->formatData('VAR',$linha['VAR_MES']).'</td><td>'.$this->formatData('VAR',$linha['VAR_ANO']).'</td></tr><tr><td>Medio</td><td>'.$this->formatData('VAR',$linha['VAR_DIA_MED']).'</td><td>'.$this->formatData('VAR',$linha['VAR_MES_MED']).'</td><td>'.$this->formatData('VAR',$linha['VAR_ANO_MED']).'</td></tr><tr><td colspan="4">Volume: '.$this->formatData('QTD',$linha['QTD_TOTAL']).'</td></tr>';
+			echo '</tbody>';
+			echo '</table></div></div>';
+		}
+
+	}
+
+	protected function renderTable($arrayDados){
+
+	$htmlColunasTitulo = '';
+	$colunas = array_keys($arrayDados[0]);
+	foreach ($colunas as $coluna)
+	{
+		$htmlColunasTitulo .= '<th scope="col" data-column-id="'.$coluna.'">';
+		$this->addParams('orderby', $coluna);
+		$htmlColunasTitulo .= '<a href="'.$this->home().'">'.$coluna.'</a>';
+		$this->removeParams('orderby');
+		if($this->orderby) $this->addParams('orderby', $this->orderby);
+		$htmlColunasTitulo .= '</th>';
+	}
+
+	$htmlLinhasBody = '';
+	foreach ($arrayDados as $rs)
+	{
+		$htmlColunasBody = '';
+		$value = '';
+		for ($x=0; $x < count($rs)-1; $x++)
+		{
+			$coluna = array_keys($rs)[$x];
+			$linha = $rs[$coluna];
+
+			switch($coluna){
+			case 'Fav':
+				$this->addParams('fav', $rs['COD_PAPEL']);
+				$value = '<a href="'.$this->home().'">';
+				$this->removeParams('fav');
+				$flFavorito = $rs['Fav'];
+				$value .= '<i class="'.(($flFavorito)?'fas':'far').' fa-heart"></i></a>';
+			break;
+
+			case 'SEGMENTO':
+				$this->addParams('segmento', $linha);
+				$value = '<a href="'.$this->home().'">'.$linha.'</a>';
+				$this->removeParams('segmento');
+				if ($this->model->segmento) $this->addParams('segmento', $this->model->segmento);
+			break;
+
+			case 'COD_PAPEL':
+				$value = '<a href="'.$_SERVER['PHP_SELF'].'?'.'cod_papel='.$linha.'">'.$linha.'</a>';
+			break;
+
+			default:
+			$htmlColunasBody .= '<td>'.$this->formatData($coluna, $linha).'</td>';
+			}
+    	}
+        $htmlLinhasBody .= '<tr>'.$htmlColunasBody.'</tr>';
+	}
+
+
+	$htmlTable  ='<table id="dados" class="table table-striped table-bordered" style="font-size: 6pt">';
+	$htmlTable .='<thead><tr>'.$htmlColunasTitulo.'</tr></thead>';
+	$htmlTable .='<tbody>'.$htmlLinhasBody.'</tbody>';
+	$htmlTable .= '</table>';
+	echo $htmlTable;
+	}
+
+	private function formatData($coluna, $linha){
+		$value ='';
+		if (strpos($coluna,'VAR') !== false){
+			$cor = ($linha > 0) ? 'text-success':'text-danger';
+			$value ='<span class="'.$cor.'">'.number_format($linha,2,',','.').'%</span>';
+		} elseif (strpos($coluna,'PRECO') !== false  ){
+			$value = number_format($linha,2,',','.');
+		} elseif (strpos($coluna,'QTD') !== false ){
+			$value = number_format($linha,0,',','.');
+		} else {
+			$value = $linha;
+		}
+		return $value;
+	}
+
 }
 ?>
